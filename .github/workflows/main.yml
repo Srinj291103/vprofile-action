@@ -61,7 +61,7 @@ jobs:
          daemon_off: false
          dockerfile: ./Dockerfile
          context: ./
-  DEPLOY To EKS:
+  DeployToEKS:
     needs: BUILD_AND_PUBLISH
     runs-on: ubuntu-latest
     steps:
